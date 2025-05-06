@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Kittipong6081/review/static/css/main.1258f25d.css",
-    "main.js": "/Kittipong6081/review/static/js/main.f294f006.js",
-    "static/js/453.7322922b.chunk.js": "/Kittipong6081/review/static/js/453.7322922b.chunk.js",
-    "index.html": "/Kittipong6081/review/index.html",
-    "main.1258f25d.css.map": "/Kittipong6081/review/static/css/main.1258f25d.css.map",
-    "main.f294f006.js.map": "/Kittipong6081/review/static/js/main.f294f006.js.map",
-    "453.7322922b.chunk.js.map": "/Kittipong6081/review/static/js/453.7322922b.chunk.js.map"
+    "main.css": "/review/static/css/main.1258f25d.css",
+    "main.js": "/review/static/js/main.a670e921.js",
+    "static/js/453.7322922b.chunk.js": "/review/static/js/453.7322922b.chunk.js",
+    "index.html": "/review/index.html",
+    "main.1258f25d.css.map": "/review/static/css/main.1258f25d.css.map",
+    "main.a670e921.js.map": "/review/static/js/main.a670e921.js.map",
+    "453.7322922b.chunk.js.map": "/review/static/js/453.7322922b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1258f25d.css",
-    "static/js/main.f294f006.js"
+    "static/js/main.a670e921.js"
   ]
 }
