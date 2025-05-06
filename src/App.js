@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // ใช้ Router สำหรับ routing
+import ProductReview from './review/ProductReview'; // หน้ารีวิวผลิตภัณฑ์
+import Navbar from './review/component/Navbar'; // Navbar
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar /> {/* Navbar จะแสดงอยู่เสมอในทุกหน้า */}
+        <Routes>
+          {/* กำหนด route สำหรับแต่ละหน้า */}
+          <Route path="/dogFood" element={<ProductReview />} />
+          {/* เพิ่ม Route อื่นๆ ถ้ามีหน้าอื่น */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
